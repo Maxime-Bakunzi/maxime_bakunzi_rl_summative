@@ -179,8 +179,6 @@ python main.py
 - **DQN Simulation Video:** [dqn_simulation.mp4](video/dqn_simulation.mp4)  
 - **PPO Simulation Video:** [ppo_simulation.mp4](video/ppo_simulation.mp4)
 
-Also, check out my **3-minute video** where I explain the project and share insights on the development process: [3-Minute Project Video](#).
-
 ---
 
 ## Future Vision
