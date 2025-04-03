@@ -1,6 +1,6 @@
 # Kinyarwanda Language Learning RL Project
 
-**Video Recording (3 min):** [Link to your video](#)
+**Video Recording (3 min):** [Link to your video](https://www.youtube.com/watch?v=3dXz2HIP57Q)
 
 ---
 
@@ -26,16 +26,25 @@ maxime_bakunzi_rl_summative/
 ├── training/
 │   ├── dqn_training.py          # DQN training script
 │   ├── pg_training.py           # PPO training script
+│   ├── logs/                    # Training logs
+│   │   ├── dqn_monitor_logs.monitor.csv    # DQN training logs
+│   │   ├── dqn_eval_logs.monitor.csv       # DQN evaluation logs
+│   │   ├── pg_monitor_logs.monitor.csv     # PPO training logs
+│   │   ├── pg_eval_logs.monitor.csv        # PPO evaluation logs
 ├── models/
 │   ├── dqn/                     # Saved DQN models (e.g., dqn_language_model.zip)
 │   └── pg/                      # Saved PPO models (e.g., pg_language_model.zip)
+├── plots/                       # Folder for saved plots
+│   ├── cumulative_rewards.png   # Plot of cumulative rewards over episodes
 ├── video/
 │   ├── static_visualization.mp4 # 5-second static demo of the environment
 │   ├── dqn_simulation.mp4       # 30-second DQN simulation video
 │   └── ppo_simulation.mp4       # 30-second PPO simulation video
+├── generate_plots.py            # Script for generating and saving rewards plot
 ├── main.py                      # Entry point for evaluation, simulation, and video saving
 ├── requirements.txt             # Project dependencies
 └── README.md                    # Project documentation (this file)
+
 ```
 
 ---
