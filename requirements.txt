@@ -1,0 +1,8 @@
+
+gymnasium
+stable-baselines3
+pygame
+pyopengl
+numpy
+imageio
+tensorflow
